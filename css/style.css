@@ -1,0 +1,39 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	outline: none;
+}
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+.container {
+	max-width: 1170px;
+	margin: 0px auto;
+}
+#intro {
+	height: 665px;
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+header {
+	display: block;
+	display: flex;
+	justify-content: space-between;
+	height: 76px;
+	line-height: 76px;
+	background-color: #020717; 
+}
+header h1 {
+	font-size: 37px;
+	color: white;
+}
+header ul li {
+	display: inline-block;
+}
